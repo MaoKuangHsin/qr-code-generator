@@ -13,7 +13,7 @@ All QR code generation is handled entirely in your browser — no information is
 
 ## Motivation
 
-The objective behind building this project was to create a scalable and privacy-first QR code generator —  
+The objective behind building this project was to create a scalable and privacy-first QR code generator,  
 because I didn't want my data to be tracked or uploaded by third-party websites.  
 All QR generation happens locally via DataURLs, ensuring maximum privacy.
 
