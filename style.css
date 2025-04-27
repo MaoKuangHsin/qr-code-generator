@@ -119,27 +119,3 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.section-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    width: 100%;
-}
-
-.section-title .line {
-    flex-grow: 1;
-    height: 1px;
-    background: #ccc;
-    margin: 0 10px;
-}
-
-.section-title .title-text {
-    background: #eee;
-    padding: 5px 15px;
-    border-radius: 999px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #333;
-}
