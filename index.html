@@ -12,14 +12,8 @@
         <input type="text" id="text-input" placeholder="Enter URL or Text">
 
         <div class="color-picker">
-            <div>
-                <label>Dark Color:</label>
-                <input type="color" id="dark-color" value="#000000">
-            </div>
-            <div>
-                <label>Light Color:</label>
-                <input type="color" id="light-color" value="#ffffff">
-            </div>
+            <input type="color" id="dark-color" value="#000000">
+            <input type="color" id="light-color" value="#ffffff">
         </div>
 
         <div class="upload-logo">
@@ -33,15 +27,21 @@
 
         <button id="download-btn" style="display:none;">Download QR Code</button>
     </div>
+
     <div class="disclaimer-section">
-    <h2>Disclaimer</h2>
-    <div class="disclaimer-card">
-        <p>Hi there! I'm <strong>Cindy</strong>.</p>
-        <p>I created this QR code generator project to offer a simple, scalable, and privacy-focused way to generate QR codes.</p>
-        <p>All QR code generation happens directly in your browser — no data is sent to any server.</p>
-        <p><strong>No cookies, sessions, or tracking are used.</strong> Feel free to inspect everything through your browser console!</p>
+        <h2>Disclaimer</h2>
+        <div class="disclaimer-card">
+            <p>Hi there! I'm <strong>Cindy</strong>.</p>
+            <p>This project was built to provide a simple, scalable, and privacy-first solution for generating QR codes.</p>
+            <p>All QR code generation is handled locally in your browser — no data is sent to any server.</p>
+            <p><strong>No cookies, no sessions, no tracking.</strong> Feel free to inspect everything through your browser console!</p>
+        </div>
     </div>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
 
     <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
