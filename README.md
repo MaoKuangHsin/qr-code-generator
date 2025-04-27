@@ -21,7 +21,7 @@ The objective behind building this project was to create a scalable and privacy-
 because I didn't want my data to be tracked or uploaded by third-party websites.  
 All QR generation happens locally via DataURLs, ensuring maximum privacy.
 
-## Technologies
+## 🛠️ Tools
 
 - HTML5
 - CSS3
