@@ -3,104 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>QR Code Generator</title>
-    <style>
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
-    margin: 0;
-}
-h1 {
-    margin-bottom: 20px;
-    font-size: 2.5em;
-    color: #333;
-}
-input {
-    width: 320px;
-    padding: 12px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    transition: all 0.3s;
-}
-input:focus {
-    border-color: #007BFF;
-    outline: none;
-}
-button {
-    padding: 12px 30px;
-    font-size: 16px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: background-color 0.3s;
-}
-button:hover {
-    background-color: #0056b3;
-}
-#qrcode {
-    margin-top: 20px;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-}
-a#downloadLink {
-    display: block;
-    margin-top: 20px;
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-a#downloadLink:hover {
-    text-decoration: underline;
-}
-</style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>QR Code Generator</h1>
-    <input type="text" id="text" placeholder="Enter text or URL">
-    <button id="generate">Generate QR Code</button>
-    <div id="qrcode"></div>
-    <a id="downloadLink" style="display:none;" download="qrcode.png">Download QR Code</a>
+    <div class="container">
+        <h1>QR Code Generator</h1>
 
-    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
-    <script>
-        var qrcode;
+        <input type="text" id="text-input" placeholder="Enter URL or Text">
 
-        document.getElementById('generate').addEventListener('click', function() {
-            var text = document.getElementById('text').value.trim();
-            var qrcodeContainer = document.getElementById('qrcode');
-            var downloadLink = document.getElementById('downloadLink');
-            qrcodeContainer.innerHTML = "";
-            downloadLink.style.display = "none";
+        <div class="color-picker">
+            <div>
+                <label>Dark Color:</label>
+                <input type="color" id="dark-color" value="#000000">
+            </div>
+            <div>
+                <label>Light Color:</label>
+                <input type="color" id="light-color" value="#ffffff">
+            </div>
+        </div>
 
-            if (text) {
-                qrcode = new QRCode(qrcodeContainer, {
-                    text: text,
-                    width: 200,
-                    height: 200
-                });
+        <div class="upload-logo">
+            <label for="logo-upload" class="upload-button">Upload Logo (optional)</label>
+            <input type="file" id="logo-upload" accept="image/*">
+        </div>
 
-                
-                setTimeout(function() {
-                    var img = qrcodeContainer.querySelector('img');
-                    if (img) {
-                        downloadLink.href = img.src;
-                        downloadLink.style.display = "block";
-                    }
-                }, 300);
-            }
-        });
-    </script>
+        <button id="generate-btn">Generate QR Code</button>
+
+        <div id="qrcode"></div>
+
+        <button id="download-btn" style="display:none;">Download QR Code</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
