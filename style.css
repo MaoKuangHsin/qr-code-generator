@@ -80,3 +80,29 @@ button:hover {
 #qrcode {
     margin-top: 20px;
 }
+
+.disclaimer-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.disclaimer-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.disclaimer-card {
+    background: #f0f0f0;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1rem;
+    color: #444;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.disclaimer-card p {
+    margin-bottom: 10px;
+}
