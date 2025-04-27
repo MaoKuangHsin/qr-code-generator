@@ -11,6 +11,10 @@ All QR code generation is handled entirely in your browser — no information is
 - 🔒 100% frontend solution — no data is sent to any server
 - 📥 Download the generated QR code as a PNG file
 
+## Demo
+
+🚀 [View it here!](https://maokuanghsin.github.io/qr-code-generator/)
+
 ## Motivation
 
 The objective behind building this project was to create a scalable and privacy-first QR code generator,  
@@ -22,10 +26,6 @@ All QR generation happens locally via DataURLs, ensuring maximum privacy.
 - HTML5
 - CSS3
 - JavaScript
-
-## Demo
-
-👉 [View it here!](https://maokuanghsin.github.io/qr-code-generator/)
 
 ---
 
