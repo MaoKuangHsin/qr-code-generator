@@ -1,4 +1,3 @@
-
 let qrCode;
 
 const generateBtn = document.getElementById('generate-btn');
@@ -15,7 +14,6 @@ generateBtn.addEventListener('click', () => {
         return;
     }
 
-    
     if (qrCode) {
         document.getElementById('qrcode').innerHTML = '';
     }
