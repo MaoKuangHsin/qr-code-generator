@@ -21,7 +21,7 @@ All QR generation happens locally via DataURLs, ensuring maximum privacy.
 
 - HTML5
 - CSS3
-- JavaScript (with [qr-code-styling](https://github.com/kozakdenys/qr-code-styling) library)
+- JavaScript
 
 ## Demo
 
