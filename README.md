@@ -27,14 +27,6 @@ All QR generation happens locally via DataURLs, ensuring maximum privacy.
 
 👉 [View it here!](https://maokuanghsin.github.io/qr-code-generator/)
 
-## Screenshots
-
-| QR Code Generator | Disclaimer Section |
-|:-----------------:|:------------------:|
-| ![QR Code Generator](https://user-images.githubusercontent.com/your-screenshot-path/qr-code-generator.png) | ![Disclaimer Section](https://user-images.githubusercontent.com/your-screenshot-path/disclaimer-section.png) |
-
-*(Optional: Upload screenshots and replace the links above if you want)*
-
 ## License
 
 This project is open source and free to use under the [MIT License](LICENSE).
