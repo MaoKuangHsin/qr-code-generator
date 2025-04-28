@@ -1,7 +1,7 @@
 # QR Code Generator
 
 A simple and scalable QR code generator designed with privacy in mind.  
-All QR code generation is handled entirely in your browser — no information is uploaded or shared externally.
+All QR code generation is handled entirely in your browser, no information is uploaded or shared externally.
 
 ## Features
 
@@ -26,7 +26,6 @@ All QR generation happens locally via DataURLs, ensuring maximum privacy.
 - HTML5
 - CSS3
 - JavaScript
-
 ---
 
 Feel free to inspect the network activity — no cookies, no sessions, no tracking involved. 🚀
