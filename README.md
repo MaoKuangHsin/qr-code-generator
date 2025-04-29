@@ -10,6 +10,7 @@ All QR code generation is handled entirely in your browser, no information is up
 - Upload an optional logo inside the QR code
 - 100% frontend solution — no data is sent to any server
 - Download the generated QR code as a PNG file
+
 ## Demo
 
 🚀 [View it here!](https://maokuanghsin.github.io/qr-code-generator/)
