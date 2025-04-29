@@ -28,4 +28,4 @@ All QR generation happens locally via DataURLs, ensuring maximum privacy.
 - JavaScript
 ---
 
-Feel free to inspect the network activity — no cookies, no sessions, no tracking involved. 🚀
+Feel free to inspect the network activity — no cookies, no sessions, no tracking involved. 
